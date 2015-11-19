@@ -4,7 +4,6 @@ float x;
 
 void setup(){
   size(602,209);
-  x=1;
   chocolate= loadImage("hershey.jpg");//to load image
   scaleFactor= 1;//to change the dimensions of image
   imageMode(CENTER);

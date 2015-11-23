@@ -13,7 +13,7 @@ void draw(){
   background(0);// background set to 0 so flag will not be dragged into multiple images of itself, no trail of flags
   //tint(120,200);
   image(chocolate, width/2, height/2, chocolate.width*scaleFactor, chocolate.height*scaleFactor);// dimensions of picture, resized, and will follow mouse
-  filter(INVERT);
+  filter(INVERT);//inverted image 
 }
 void keyPressed(){
   if (keyCode==ESC){

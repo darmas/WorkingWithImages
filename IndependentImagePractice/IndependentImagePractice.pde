@@ -19,8 +19,8 @@ void setup(){//runs settings once
 
 void draw(){// runs settings in a loop
   image(mainImage, width/2, height/2);// redraw the image 
-  filter(GRAY);
-  if(mousePressed){
+  filter(GRAY);//the pictures are now under a gray filter
+  if(mousePressed){//when the mouse is clicked then the logo will appear 
     image(point,mouseX,mouseY,point.width*scaleFactor, point.height*scaleFactor);
   } 
 
